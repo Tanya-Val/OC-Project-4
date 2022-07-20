@@ -17,13 +17,13 @@ a:hover {
     text-decoration: none;
     cursor: pointer;
 }
-
+/*There is no gif in img folder!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
 #page-loading-blocs-notifaction {
     position: fixed;
     top: 0;
     bottom: 0;
     width: 100%;
-    z-index: 100000;
+    /*z-index: 100000;*/
     background: #FFFFFF url("img/pageload-spinner.gif") no-repeat center center;
 }
 
@@ -284,7 +284,7 @@ a:hover {
 }
 
 #bloc-2-services p {
-    font-size: 11px;
+    font-size: 13px;
 }
 
 .navbar {
@@ -516,8 +516,9 @@ button {
     position: fixed;
     bottom: 20px;
     right: 20px;
-    opacity: 0;
-    z-index: 500;
+    /*DELETE THE BUTTON OR MAKE IT WORK*/ 
+    /*opacity: 0;
+    z-index: 500;*/
     transition: all .3s ease-in-out;
 }
 
@@ -677,7 +678,7 @@ a {
 }
 
 p {
-    font-size: 12px;
+    font-size: 13px;
 }
 
 .tight-width-whitespace {
@@ -705,8 +706,9 @@ p {
 }
 
 h2 {
-    font-size: 22px;
+    font-size: 36px;
     line-height: 1.4em;
+    color: #575757;
 }
 
 h3 {
@@ -714,6 +716,7 @@ h3 {
     text-transform: uppercase;
     font-weight: 700;
     color: #333333!important;
+    line-height: 1.5;
 }
 
 .med-width-whitespace {
@@ -727,7 +730,8 @@ h1 {
 }
 
 h4 {
-    color: #333333!important;
+    color: #575757!important;
+    line-height: 1.6;
 }
 
 .icons {
@@ -781,7 +785,8 @@ h4 {
 }
 
 .tc-white {
-    color: #364577!important;
+    color: #E3E3E3!important;
+    position: relative;
 }
 
 .btn-atomic-tangerine {
