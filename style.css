@@ -743,7 +743,14 @@ h4 {
 .white {
     color: #FFFFFF!important;
 }
-
+#text-review{
+    text-transform: none;
+    font-size: 18px;
+    color: #575757!important;
+    line-height: 1.6;
+    font-weight: 400;
+    font-family: Arial, Helvetica, sans-serif;
+}
 .portfolio-thumb {
     margin-bottom: 24px;
 }
@@ -794,6 +801,12 @@ h4 {
     background: #993B0F;
     color: #FFFFFF!important;
 }
+button {
+    font-size: medium;
+    background: none;
+    border: none;
+    
+}
 
 .btn-atomic-tangerine:hover {
     background: #c27956!important;
@@ -836,6 +849,7 @@ h4 {
 .bg-atlanta-20made-20sign-20orange {
     background-image: url("img/atlanta-made-sign-orange.webp");
 }
+
 
 @media (max-width: 1024px) {
     .bloc {
